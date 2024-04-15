@@ -38,7 +38,7 @@
             // txtX
             // 
             this.txtX.Location = new System.Drawing.Point(369, 197);
-            this.txtX.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtX.Margin = new System.Windows.Forms.Padding(2);
             this.txtX.Name = "txtX";
             this.txtX.Size = new System.Drawing.Size(76, 20);
             this.txtX.TabIndex = 0;
@@ -46,7 +46,7 @@
             // txtY
             // 
             this.txtY.Location = new System.Drawing.Point(369, 235);
-            this.txtY.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtY.Margin = new System.Windows.Forms.Padding(2);
             this.txtY.Name = "txtY";
             this.txtY.Size = new System.Drawing.Size(76, 20);
             this.txtY.TabIndex = 1;
@@ -54,7 +54,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(289, 286);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(156, 69);
             this.button1.TabIndex = 2;
@@ -90,9 +90,10 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtY);
             this.Controls.Add(this.txtX);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

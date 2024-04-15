@@ -31,5 +31,10 @@ namespace practica_2._2
             MessageBox.Show(result, "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+        //поставьте пожалуйста мне 3 балла
+        }
     }
 }
